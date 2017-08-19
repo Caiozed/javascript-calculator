@@ -1,0 +1,172 @@
+/* Reset code */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Box sizing reset */
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box;
+    font-family:  "Times New Roman", Times, serif;
+}
+
+/* Grid code */
+[class*="col-"] {
+    float:left; 
+    margin-top: 10px;
+    margin-right:5px;
+}
+
+[class*="col-"]:last-of-type {
+    margin-right:0px;
+}
+
+.row {
+    *zoom: 1;
+}
+
+.row:after, .row:before {
+    content: ' ';
+    display: table;
+}
+
+.row:after { clear: both;}
+
+
+.container{
+  background-color: #545454;
+  border-radius: .5em;
+  padding: 10px;
+  margin: auto;
+  width: 80%;
+}
+
+.col-1-12{
+ width: calc( (100% - (12 - 1) * 5px) / 12);
+}
+
+.col-2-12{
+ width: calc( (100% - (12 - 1) * 5px) / 12 * 2 );
+}
+
+.col-3-12{
+ width: calc( (100% - (12/3 - 1) * 5px) / 12 * 3 );
+}
+
+.col-4-12{
+ width: calc( (100% - (12/4 - 1) * 5px) / 12 * 4 );
+}
+
+.col-5-12{
+ width: calc( (100% - (12/5 - 1) * 5px) / 12 * 5 );
+}
+
+.col-6-12{
+ width: calc( (100% - (12/6 - 1) * 5px) / 12 * 6 );
+}
+
+.col-7-12{
+ width: calc( (100% - (12/7 - 1) * 5px) / 12 * 7 );
+}
+
+.col-8-12{
+ width: calc( (100% - (12/8 - 1) * 5px) / 12 * 8 );
+}
+
+.col-9-12{
+ width: calc( (100% - (12/8 - 1) * 5px) / 12 * 8 );
+}
+
+.col-10-12{
+ width: calc( (100% - (12/10 - 1) * 5px) / 12 * 10 );
+}
+
+.col-11-12{
+ width: calc( (100% - (12/11 - 1) * 5px) / 12 * 11);
+}
+
+.col-12-12{
+ width: 100%;
+}
+
+/* Custom styles */
+.grey{
+  background: rgba(0,0,0,.5);
+  height: 200px;
+}
+
+h1{
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+h2{
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+button{
+  background-color: #99baef;
+  color: white;
+  font-size: 30px;
+  border-radius: .2em;
+  height: 100%;
+  width:100%;
+}
+
+#result{
+  border-radius: .5em;
+  background-color: #8dc9c6;
+  color: white;
+}
+
+#title{
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+
+

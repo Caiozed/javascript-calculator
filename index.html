@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>JavaScript calculator</title>
+</head>
+<body>
+	 <div class="container">
+   <h1 id="title">Simple Calculator Online</h1>
+    <div class="row">
+      <div class="col-12-12">
+        <h1 id="result">
+         0
+        </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3-12" onclick="AddCharacter('1')">
+       <button>
+            1
+        </button>
+      </div>
+      <div class="col-3-12" onclick="AddCharacter('2')">
+        <button>
+            2
+        </button>
+      </div>
+      <div class="col-3-12" onclick="AddCharacter('3')">
+       <button>
+            3
+        </button>
+      </div>
+      <div class="col-3-12" onclick="AddCharacter('+')">
+       <button>
+            +
+        </button>
+      </div>
+    </div>
+     <div class="row">
+      <div class="col-3-12" onclick="AddCharacter('4')">
+        <button>
+            4
+        </button>
+      </div>
+      <div class="col-3-12" onclick="AddCharacter('5')">
+        <button>
+            5
+        </button>
+      </div>
+      <div class="col-3-12" onclick="AddCharacter('6')">
+       <button>
+            6
+        </button>
+      </div>
+      <div class="col-3-12" onclick="AddCharacter('-')">
+       <button>
+            -
+        </button>
+      </div>
+    </div>
+     <div class="row">
+      <div class="col-3-12" onclick="AddCharacter('7')">
+        <button>
+            7
+        </button>
+      </div>
+      <div class="col-3-12" onclick="AddCharacter('8')">
+       <button>
+            8
+        </button>
+      </div>
+      <div class="col-3-12" onclick="AddCharacter('9')">
+       <button>
+            9
+        </button>
+      </div>
+      <div class="col-3-12" onclick="AddCharacter('/')">
+      <button>
+            /
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6-12" onclick="AddCharacter('0')">
+        <button>
+            0
+        </button>
+      </div>
+      <div class="col-3-12" onclick="Result()">
+        <button >
+            =
+        </button>
+      </div>
+      <div class="col-3-12" >
+        <button onclick="AddCharacter('*')">
+            *
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12-12">
+        <button  onclick="Clear()">
+          Clear
+        </button>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
